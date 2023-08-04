@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lista_palabras.SecondFragment">
+
+    <!--Texto de titulo -->
+    <TextView
+        android:id="@+id/titulo_segundo_fragmento"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:text="@string/palabra_a_modificar"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Caja de texto para mostrar palabra seleccionada-->
+    <EditText
+        android:id="@+id/textoRecibido"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:paddingStart="30dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--Boton que inicializa el fragmento -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/botonModificar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/modificar_palabra"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:cornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textoRecibido" />
+
+    <!-- Boton para cerrar el fragmento y regresar al fragmento anterior-->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/botonRegresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/regresar"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:cornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botonModificar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

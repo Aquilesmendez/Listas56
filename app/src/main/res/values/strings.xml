@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Listas</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="boton_para_agregar_palabras">Boton para agregar palabras</string>
+    <string name="palabra_a_modificar">PALABRA A MODIFICAR</string>
+    <string name="modificar_palabra">MODIFICAR PALABRA</string>
+    <string name="regresar">REGRESAR</string>
+    <string name="ok">OK</string>
+    <string name="tipos_de_listas">Tipos de Listas</string>
+    <string name="lista_palabras">LISTA PALABRAS</string>
+    <string name="lista_imagenes">LISTA IMAGENES</string>
+    <string name="volver">VOLVER</string>
+</resources>
